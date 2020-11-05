@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import logo from "../media/logo.png";
 
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Footer from "./Footer";
 
 const StyledNav = styled.nav`
