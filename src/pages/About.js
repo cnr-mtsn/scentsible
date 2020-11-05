@@ -11,7 +11,7 @@ const StyledImage = styled.img`
   top: 2px;
   left: 0;
 `;
-export default function ComingSoon() {
+export default function About() {
   return (
     <PageWrapper>
       <StyledImage src={homeLeaf} />
