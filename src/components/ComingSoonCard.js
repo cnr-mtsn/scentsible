@@ -7,39 +7,44 @@ const StyledComingSoon = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin-top: 6rem;
+  z-index: 10;
+
+  .inner {
+    max-height: 100%;
+    outline: 1px solid black;
+    width: 45rem;
+    display: flex;
+    flex-direction: column;
+  }
 
   h1 {
     font-family: "Handwriting";
-    font-size: 9rem;
+    font-size: 6rem;
     font-weight: 200;
     letter-spacing: 2.5px;
-  }
-  .header {
-    align-self: flex-end;
-    position: absolute;
-    margin: 0rem 32rem 3rem 0;
-  }
-  .paragraph {
-    width: 25rem;
-
+    margin: 0;
+    padding: 0;
     align-self: center;
-    margin: 4rem 0 0 24rem;
+    line-height: -2;
   }
+
   p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-family: "CMU Serif";
     letter-spacing: 2px;
+    width: 25rem;
+    align-self: flex-end;
+    margin-top: -3rem;
   }
 `;
 
 export default function ComingSoonCard(props) {
   return (
     <StyledComingSoon>
-      <div className='header'>
+      <div className='inner'>
         <h1>coming Fall 2021</h1>
-      </div>
-      <div className='paragraph'>
         <p>
           clean burning candles, conscious hand soaps and more delivered to your
           door with the scents of the seasons in mind.
