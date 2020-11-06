@@ -32,11 +32,11 @@ function App() {
       <GlobalStyle />
       <Router>
         <Switch>
-          <Route path='/'>
-            <ComingSoon />
-          </Route>
           <Route path='/about'>
             <About />
+          </Route>
+          <Route path='/'>
+            <ComingSoon />
           </Route>
         </Switch>
       </Router>

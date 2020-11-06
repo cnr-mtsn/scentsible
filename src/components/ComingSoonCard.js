@@ -9,14 +9,14 @@ const StyledComingSoon = styled.div`
   justify-content: center;
   align-items: center;
   margin-top: 6rem;
-  z-index: 10;
+  z-index: 1;
 
   .inner {
     max-height: 100%;
-    outline: 1px solid black;
     width: 45rem;
     display: flex;
     flex-direction: column;
+    background-color: transparent;
   }
 
   h1 {
@@ -32,11 +32,20 @@ const StyledComingSoon = styled.div`
 
   p {
     font-size: 1.2rem;
-    font-family: "CMU Serif";
     letter-spacing: 2px;
     width: 25rem;
     align-self: flex-end;
     margin-top: -3rem;
+    font-family: "cmuSerif";
+  }
+  @media (max-width: 768px) {
+    .inner {
+      width: 25rem;
+    }
+    p {
+      margin-top: 0;
+      text-align: center;
+    }
   }
 `;
 

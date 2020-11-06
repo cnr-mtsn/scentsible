@@ -1,4 +1,9 @@
 @font-face {
   font-family: "HandWriting";
-  src: local("HandWriting"), url(./fonts//Themysion.woff) format("woff");
+  src: local("HandWriting"), url(./fonts/Themysion.woff) format("woff");
+}
+
+@font-face {
+  font-family: "cmuSerif";
+  src: local("cmuSerif"), url(./fonts/cmuSerif.ttf) format("truetype");
 }

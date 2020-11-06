@@ -8,8 +8,19 @@ const StyledImage = styled.img`
   height: 100%;
   width: auto;
   position: absolute;
-  top: 2px;
+  top: 0;
   left: 0;
+  z-index: 0;
+  @media (max-width: 1100px) {
+    height: 75%;
+  }
+  @media (max-width: 960px) {
+    height: 50%;
+  }
+  @media (max-width: 720px) {
+    height: 45%;
+    top: 5px;
+  }
 `;
 export default function ComingSoon() {
   return (
