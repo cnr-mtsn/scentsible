@@ -39,12 +39,18 @@ const StyledComingSoon = styled.div`
     font-family: "cmuSerif";
   }
   @media (max-width: 768px) {
+    justify-content: center;
     .inner {
-      width: 25rem;
+      width: 20rem;
+    }
+    h1 {
+      font-size: 3rem;
     }
     p {
       margin-top: 0;
       text-align: center;
+      font-size: 1rem;
+      width: 20rem;
     }
   }
 `;

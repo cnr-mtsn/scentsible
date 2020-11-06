@@ -18,8 +18,7 @@ const StyledImage = styled.img`
     height: 50%;
   }
   @media (max-width: 720px) {
-    height: 45%;
-    top: 5px;
+    height: 15%;
   }
 `;
 export default function ComingSoon() {
